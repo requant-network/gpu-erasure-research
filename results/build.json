@@ -1,0 +1,53 @@
+{
+  "upstream_revision": "ab01645a2d9ab581477c703103fe3450c4696845",
+  "upstream_clean": true,
+  "gxx": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2026 NVIDIA Corporation\nBuilt on Tue_Jun_09_02:43:40_PM_PDT_2026\nCuda compilation tools, release 13.3, V13.3.73\nBuild cuda_13.3.r13.3/compiler.38244171_0",
+  "cuda_flags": [
+    "-O3",
+    "-std=c++17",
+    "-arch=sm_120",
+    "-cubin"
+  ],
+  "bridge_flags": [
+    "-O3",
+    "-shared",
+    "-fPIC"
+  ],
+  "parallel_flags": [
+    "-O3",
+    "-shared",
+    "-fPIC",
+    "-fopenmp"
+  ],
+  "isal_configuration": {
+    "build_type": "Release",
+    "shared": true,
+    "tests": false,
+    "perf": false,
+    "shim": false,
+    "nasm": "2.16.01",
+    "cmake": "4.1.3"
+  },
+  "binary_sha256": {
+    "erasure.cubin": "c266be9eb4659ce90ad9237415d21d4f6b38fcb47f7fd1840bbcc3191f345156",
+    "libisal_bridge.so": "00266681674a7c8dad82db67d498187e02fd5201c1c341fe4a9ea2e151514a56",
+    "libisal_parallel.so": "18a250aaac914af2f16e751bf6f9bb6e3267642b8b5cbd8b7852bcbe87f967df",
+    "libisal.so": "ac668da8d077cc4c8fe1e5591b8fd3f2e2b50f26679d573f4477e094441d70de"
+  },
+  "result_sha256": {
+    "gpu-study.json": "3fb1ca0301e7fc4f3a5bed0ddc5715ed90e21fc691af32c33f0fce85dcb3f0c8",
+    "gpu-replication.json": "46c1e047e7d94f94957eb6a87bd4b4a85967a6d2ca9430f174a8688d2e01b8b1",
+    "transfer-study.json": "e8a4fa895163c1d86e303e8df671115fc5a7e4fe7c0b90bfaeaf78d1c883d36f",
+    "transfer-replication.json": "8f3978353975a1ed0ab86c7184bc08526470eec51cf3ea3ef425e6900d1516bf",
+    "direct-cpu-study.json": "c0f8fbd0f301dc6c2b657b0153fc939e2d98a399fd1a566fd56ee5ba79bbb2b2",
+    "direct-cpu-replication.json": "97183b4985411d14020567fd115425c77a7cc92cba7629d458f0d8ab541c485f"
+  },
+  "source_sha256": {
+    "collect_build.py": "d8670b43d0c41d242bae2a214037276afdf0e36844680ae46fc5c73314996eed",
+    "cuda/erasure.cu": "6a3713637be07dff87793bf0536a60c19c4c877e2bb6278a54a8ee283e6f23dc",
+    "native/isal_bridge.cpp": "08d14b74bfff6ac4fbc0f27a5b111ca6dfc3d07fea2cfeec79e2263961957796",
+    "native/isal_parallel.cpp": "ec6aae57d154daccd85b067ceabafc1a2d0100678e010f48a0e7dde31c8d0fac"
+  },
+  "scope": "Post-run provenance of the exact measured binaries, not a promise of byte-identical rebuilds. ISA-L upstream remains unmodified. Original wrappers implement full-pipeline orchestration and optional OpenMP chunking."
+}

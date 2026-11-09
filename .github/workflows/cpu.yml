@@ -13,3 +13,6 @@ jobs:
       - run: python -m compileall -q .
       - run: python cpu_study.py --output build/ci.json
       - run: python verify_results.py
+      - run: python verify_records.py
+      - run: python summarize_results.py
+      - run: git diff --exit-code -- results/summary.csv

@@ -17,3 +17,16 @@ Use the released RTX 5060 Ti 16 GB without concurrent GPU experiments. Retain ex
 ## Completion requirements
 
 Publish executable CPU/GPU studies, all required comparisons, independent verification, raw results, derived tables, English final conclusions and limitations. Public repository topics, homepage and attribution must identify Requant Network. CPU/reference and artifact CI must pass at the published commit. A negative result may complete a hypothesis test; missing experiments may not.
+
+## Completion evidence
+
+All five required experiments are covered by `cpu_study.py`, `gpu_study.py`,
+`transfer_study.py` and `direct_cpu_study.py`, with both cohorts retained under
+`results/`. The [final report](FINAL_REPORT.md) records exact arithmetic, pinned
+ISA-L, all GPU variants, full recovery, crossover against multicore/direct CPU,
+memory observations, medians/p95, negative outcomes and scope limits. Build and
+environment records bind the execution. CPU CI reruns reference arithmetic and
+checks source/result hashes, retained-record invariants and derived tables.
+
+This bounded campaign is complete. Resident GPU wins do not imply a universal
+transfer-inclusive advantage or a deployed data-availability protocol.

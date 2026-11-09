@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-09T04:06:00.227747+00:00",
+  "os": "Linux",
+  "architecture": "x86_64",
+  "kernel": "6.8.0-142-generic",
+  "python": "3.12.3",
+  "cpu": "AMD Ryzen 5 5500",
+  "device": {
+    "name": "NVIDIA GeForce RTX 5060 Ti",
+    "major": 12,
+    "minor": 0,
+    "multiprocessors": 36,
+    "total_global_memory": 16657285120
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "cupy-cuda12x": "13.6.0",
+    "nvidia-cuda-nvrtc-cu12": "12.8.93",
+    "nvidia-cuda-runtime-cu12": "12.8.90"
+  },
+  "cuda_runtime_api": 12090,
+  "cuda_driver_api": 13030,
+  "nvrtc": [
+    12,
+    8
+  ],
+  "nvcc": "nvcc: NVIDIA (R) Cuda compiler driver\nCopyright (c) 2005-2026 NVIDIA Corporation\nBuilt on Tue_Jun_09_02:43:40_PM_PDT_2026\nCuda compilation tools, release 13.3, V13.3.73\nBuild cuda_13.3.r13.3/compiler.38244171_0",
+  "gxx": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "nvidia_smi_columns": [
+    "name",
+    "driver_version",
+    "memory.total",
+    "power.limit",
+    "pcie.link.gen.max",
+    "pcie.link.width.max",
+    "pcie.link.gen.current",
+    "pcie.link.width.current"
+  ],
+  "nvidia_smi_values": [
+    "NVIDIA GeForce RTX 5060 Ti",
+    "610.43.03",
+    "16311 MiB",
+    "180.00 W",
+    "3",
+    "16",
+    "1",
+    "8"
+  ],
+  "source_sha256": {
+    "record_environment.py": "deb9bc8a09f227ad76119baa027bed665b74e42d0e1848b967894d7f78ee0395"
+  },
+  "policy": "No intentional concurrent GPU research jobs; no clock, voltage or power-limit changes. Dynamic clocks, thermals and OS activity remain possible confounders. Metadata excludes usernames, hostnames, device UUIDs and credentials."
+}
