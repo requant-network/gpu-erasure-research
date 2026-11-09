@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build/
+.venv/
+.env
+upstream*/
+results/*.bin
+results/*.log
