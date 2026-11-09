@@ -1,0 +1,11 @@
+{
+  "polynomial": "0x11d",
+  "multiplication_pairs": 65536,
+  "nonzero_inverses": 255,
+  "erasure_patterns": 616,
+  "scope": "Independent polynomial oracle, systematic Cauchy code, exhaustive small erasure patterns and seeded larger patterns; not a DA protocol.",
+  "source_sha256": {
+    "cpu_study.py": "16b1bc2d55b89df6ff4dd521034341eece848f83eba21899446a1a90e1464670",
+    "experiments/field.py": "7013bc2e70995e533997956ed37666917dc6162a064a06478e7406c18a22f5c4"
+  }
+}
