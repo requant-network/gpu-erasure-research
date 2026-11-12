@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-12T19:51:51.174780+00:00",
+  "devices": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 5060 Ti",
+      "current_generation": 3,
+      "reported_max_generation": 3,
+      "current_width": 8,
+      "reported_max_width": 16
+    },
+    {
+      "index": 1,
+      "name": "NVIDIA CMP 50HX",
+      "current_generation": 2,
+      "reported_max_generation": 2,
+      "current_width": 1,
+      "reported_max_width": 16
+    }
+  ],
+  "command": [
+    "nvidia-smi",
+    "--query-gpu=index,name,pcie.link.gen.current,pcie.link.gen.max,pcie.link.width.current,pcie.link.width.max",
+    "--format=csv,noheader,nounits"
+  ],
+  "source_sha256": {
+    "interconnect_probe.py": "5d4c9f734306d49f93ed84fc5040be9dc6f92f9a0c91ec6375df3fdcca78ac58"
+  },
+  "scope": "Read-only nvidia-smi report during the campaign after both GPUs were freed. Link metadata is not a measured transfer-bandwidth result or a claim about another host. No PCIe/clock/power setting changed."
+}

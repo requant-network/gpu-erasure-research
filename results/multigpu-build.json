@@ -1,0 +1,21 @@
+{
+  "source_sha256": {
+    "build_multigpu.py": "40a18fec41d6f0b03823c41db5711b7008e1145498f7792dc29dea31c873256a",
+    "cuda/erasure.cu": "6a3713637be07dff87793bf0536a60c19c4c877e2bb6278a54a8ee283e6f23dc"
+  },
+  "generated_source_sha256": "707aeaf428e02e15783a2131a427369437705e424731d764f52d12db3f98eb49",
+  "binary_sha256": {
+    "erasure-sm120.cubin": "c266be9eb4659ce90ad9237415d21d4f6b38fcb47f7fd1840bbcc3191f345156",
+    "erasure-sm75.cubin": "24acb312a0e2a927eeb7be51570532e7312a7a1f8c3cd3ba6faff07d60012d6e"
+  },
+  "architectures": [
+    120,
+    75
+  ],
+  "flags": [
+    "-O3",
+    "-std=c++17",
+    "-cubin"
+  ],
+  "scope": "Original GF256 kernels, nativeCLMAD onSM120 and bit-polynomial fallback for8-bit coefficients onSM75. Study uses nativeCLMAD onGPU0 and portable nibble-table kernel onGPU1;both exact. No truncation of field values or silent change of polynomial."
+}
