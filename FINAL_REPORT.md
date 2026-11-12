@@ -99,3 +99,7 @@ Run timing campaigns sequentially. The post-run provenance collector uses the me
 ## Decisions and limits
 
 The carryless kernel hypothesis is supported on this device and workload. The unconditional offload-speedup hypothesis is rejected over the sampled grid. Caller-owned pinned memory helps small transfers but does not repair the large transfer bottleneck; staging adds real cost. A GPU-resident application, batching with useful neighboring GPU computation, and recovery-only workloads are worthwhile separate studies. Network coding matrices, adversarial erasure models, distributed traffic, multi-GPU scaling, other field sizes and energy economics remain untested. This bounded campaign is complete without claiming those results.
+
+## Follow-up closure, 12 November 2026
+
+The [follow-up report](FOLLOWUP_REPORT.md) resolves the concrete next steps with new evidence and updated conclusions. Its findings supersede the open-work wording in this historical campaign.

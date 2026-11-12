@@ -1,0 +1,11 @@
+{
+  "revision": "ab01645a2d9ab581477c703103fe3450c4696845",
+  "source_sha256": {
+    "build_recovery.py": "a7e84b18dacd54b6917b2038dfff4a3317b81164a024aeb1009ed2c2a7a8e63a",
+    "native/isal_recovery.cpp": "874342077cca8653a090a49919dd1f5ef3b9ea335dbc7afc87b43881f468ef21"
+  },
+  "binary_sha256": {
+    "libisal.so": "ac668da8d077cc4c8fe1e5591b8fd3f2e2b50f26679d573f4477e094441d70de",
+    "libisal_recovery.so": "c9b453e35dddceb15aa85dd6922eaa7ac7a2737242a3b1d85b6b2136c112e7ac"
+  }
+}

@@ -15,4 +15,5 @@ jobs:
       - run: python verify_results.py
       - run: python verify_records.py
       - run: python summarize_results.py
-      - run: git diff --exit-code -- results/summary.csv
+      - run: python verify_followups.py
+      - run: git diff --exit-code -- results/followup-summary.csv results/summary.csv

@@ -30,3 +30,7 @@ checks source/result hashes, retained-record invariants and derived tables.
 
 This bounded campaign is complete. Resident GPU wins do not imply a universal
 transfer-inclusive advantage or a deployed data-availability protocol.
+
+## Follow-up closure, 12 November 2026
+
+The [follow-up report](FOLLOWUP_REPORT.md) records the disposition of the concrete next steps: new experiments, negative findings and measured resource limits. The earlier completed campaign remains available for historical comparison. Run `python verify_followups.py` for the added evidence checks.
